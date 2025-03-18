@@ -100,3 +100,31 @@ li, a {
     right: 300px;
     left: 300px;
 }
+
+
+.why {
+    background-color: var(--why_us_background);
+    width: 100%;
+}
+.msg p {
+    font-family: "Montserrat";
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.msg {
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 55px;
+}
+
+.reasonn {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 70px;
+}
+
+.reasons {
+    text-align: center;
+}
