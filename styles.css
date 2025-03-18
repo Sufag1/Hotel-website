@@ -366,6 +366,8 @@ label {
         justify-content: space-between;
     }
     
+
+    
     .menu-toggle {
         border: none;
         margin-top: -8px;
@@ -535,7 +537,10 @@ label {
 
     .mobile-menu-container {
         display: block;
-        
+        max-width: 100%;
+        width: 100%;
+        right: 0;
+        left: 0;
         
     }
 
@@ -568,4 +573,25 @@ label {
         margin-right: 32px;
         margin-left: 20px;
     }
+
+
+    .wrapper {
+        margin-right: 30px;
+        ;
+    }
+
+    .special h2 {
+        margin-right: 50px;
+    }
+
+    .link img {
+        margin-left: -80px;
+    }
+
+    .link.submit-btn {
+        display: none;
+    }
+
+    
+
 }
