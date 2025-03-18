@@ -246,3 +246,102 @@ li, a {
     color: var(--blue-color);
 
 }
+
+
+.posts {
+    margin-bottom: 100px;
+}
+
+.posts h4 {
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--p-color);
+}
+
+.forp {
+    font-family: 'Monteserrat', sans-serif;
+    color: var(--p-color);
+}
+
+footer {
+    background-color: var(--why_us_background);
+    padding-bottom: 10px;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link ul {
+    display: block;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#input {
+    width: 336px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: var(--orange-color);
+    position: relative;
+}
+
+.submit-btn {
+    position: absolute;
+    right: 105px;
+    width: 40px;
+    height: 40px;
+}
+
+.link a {
+    position: absolute;
+    left: -1px;
+    top: -2px;
+}
+
+label {
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--p-color);
+}
+
+
+.ft {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ft p {
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: var(--p-color);
+}
+
+.ft .delvig {
+    color: var(--blue-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ft .delvig:hover {
+    background-color: #93c1e2;
+}
+
+.footer-lastp {
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    
+}
+
+.search-img {
+    display: none;
+}
+.mobile-menu-container {
+    display: none;
+}
