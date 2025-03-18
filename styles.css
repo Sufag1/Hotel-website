@@ -168,3 +168,42 @@ li, a {
     left: 308px;
     right: 10px;
 }
+
+.reviews h2 {
+    text-align: center;
+}
+
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 20px;
+    
+}
+
+.one {
+    text-align: center;
+    margin-right: 35px;
+}
+
+.left-arrow {
+    margin-right: 30px;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 15px 82px;
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
