@@ -74,3 +74,29 @@ li, a {
 .your {
     color: var(--orange-color);
 }
+
+
+.banner-img {
+    position: relative;
+    width: 100%;
+}
+
+.banner-text {
+    position: absolute;
+    width: 494px;
+    height: 118px;
+    top: 70px;
+    bottom: 312px;
+    left: 70px;
+    right: 616px;
+}
+.banner-text span{
+    line-height: 30px;
+}
+.banner-search {
+    position: absolute;
+    top: 465px;
+    bottom: 0px;
+    right: 300px;
+    left: 300px;
+}
