@@ -1,0 +1,76 @@
+:root{ 
+    --black-color: #262729;
+    --orange-color: #EE685F;
+    --blue-color: #2A90D9;
+    --white-color: #FFFFFF;
+    --p-color: #333333;
+    --why_us_background: #F7F7F7;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    position: center;
+    max-width: 1280px;
+}
+
+header{
+    margin-bottom: 100px;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    
+}
+
+section {
+    margin: 100px 100px 0px 0px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 17px auto;
+    
+}
+
+.mobile-nav {
+    display: none;
+}
+
+
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 40px;
+    color: #262729;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.logos img {
+    margin-right: 30px;
+}
+.ylogo {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--blue-color);
+
+}
+.your {
+    color: var(--orange-color);
+}
