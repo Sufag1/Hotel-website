@@ -207,3 +207,42 @@ li, a {
     display: flex;
     justify-content: center;
 }
+
+
+.posts h2 {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.places {
+    display: flex;
+    justify-content: space-between;
+}
+.place {
+    margin-right: 60px;
+}
+
+.timedate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clk {
+    margin-left: auto;
+}
+
+.small {
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--p-color);
+
+}
+
+.blu {
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--blue-color);
+
+}
