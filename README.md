@@ -37,7 +37,7 @@ The website features a navigation menu, a banner with a search function, and dyn
 
 - **Render:** https://hotel-website-qu3f.onrender.com
 
-- **Loom:** https://www.loom.com/share/91a9dcf893a94eeca095884a34c2216c?sid=b5ad5215-3dcf-4816-a5d7-0c0f8abb6e61
+- **Loom:** https://www.loom.com/share/91a9dcf893a94eeca095884a34c2216c
 
 
 
