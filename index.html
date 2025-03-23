@@ -11,9 +11,20 @@
 </head>
 <body>
 
-    <header>
-        <nav class="main-nav">
-            <span class="ylogo"><span class="your">Your</span>.logo</span>
+    <header class="header">
+        <nav class="navbar">
+            <div class="menu-icon" id="menuBtn">&#9776;</div> <!-- Hamburger Menu -->
+            <h1 id="nav-logo">Your<span>.logo</span></h1>
+            <img src="images/icon.svg" alt="" class="nav-icon">
+        </nav>
+
+        <div class="nav-menu" id="navMenu">
+            <div class="nav-header">
+                <button class="close-btn" id="closeBtn">&times;</button> <!-- Close Button -->
+                <h1 id="logo">Your<span>.logo</span></h1><!-- Text at Top -->
+                <img src="images/icon.svg" alt="Logo" class="nav-logo"> <!-- Logo at Top -->
+            </div>
+    
             <ul>
                 <li><a href="#">Last Minute Deals</a></li>
                 <li><a href="#">Blog</a></li>
@@ -21,298 +32,115 @@
                 <li><a href="#">Contacts</a></li>
             </ul>
             <div class="logos">
-                <img src="images/money.svg" alt="" >
-                <img src="images/EN.svg" alt="" >
-                <img src="images/icon.svg" alt="">
+                <img src="images/money.svg" alt="" class="mony">
+                <img src="images/EN.svg" alt="" id="en">
             </div>
-        </nav>
-
-        
-        <nav class="mobile-nav">
-            <button id="menuTgle" class="menu-toggle">&#9776;</button>
-            <span class="ylogo"><span class="your">Your</span>.logo</span>
-            <img src="images/icon.svg" alt="">
-
-        </nav>
-
-
-        <div class="mobile-menu-container">
-            <div class="mobile-menu-nav">
-                <div class="close-icon">
-                    <img src="images/Vector 5.svg" alt="">
-                </div>
-                <span class="ylogo"><span class="your">Your</span>.logo</span>
-                <img src="images/icon.svg" alt="">
-
-            </div>
-            
-            <ul>
-                <li><a href="#">Last Minute Deals</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-            <img src="images/money.svg" alt="" class="dollar">
-            <img src="images/EN.svg" alt="" class="en">
-
-            <ul class="ic">
+            <div class="social-links">
                 <a href="#"><img src="images/Phone_black.svg" alt=""></a>
                 <a href="#"><img src="images/Facebook_black.svg" alt=""></a>
                 <a href="#"><img src="images/Youtube_black.svg" alt=""></a>
                 <a href="#"><img src="images/Instagram_black.svg" alt=""></a>
                 <a href="#"><img src="images/Telegram_black.svg" alt=""></a>
-            </ul>
-
-
-        </div>
-
-        <!--End of the Navigation bar-->
-
-        <div class="wrapper">
-            <div class="banner banner-img">
-                <img src="images/Rectangle 5.png" alt="" class="responsive-img">
-                <img src="images/searcha.svg" alt="" class="banner-search">
-                <img src="images/search.svg" alt="" class="search-img">
-                <div class="banner banner-text">
-                    <h1>Find an apartment <br>for your vacation</h1>
-                    <span>We have several thousand apartments <br>for every taste in every corner of the globe</span>
-                </div>
             </div>
-            
-        </div>
     </header>
 
-    <!--End of header-->
 
-    <section class="why">
-        <div class="why msg">
-            <h2>Why Choose Us</h2>
-            <p>The main reason is because our competitors have <br>disgusting sites, but we can' t write that here, <br>so the text here will be different</p>
-        </div>
-
-        <div class="reasonn">
-            <div class="why reasons">
-
-                <img src="images/imgpay.png" alt="">
-                <h4>Payment methods</h4>
-                <p>We have a lot of them, <br>from cryptocurrencies to barter <br>for potatoes</p>
-            </div>
-    
-            <div class="why reasons">
-                <img src="images/img (1).png" alt="">
-                <h4>Simple search process</h4>
-                <p>We checked it out, even the kid <br>did it, but it was my mom's <br>friend's son</p>
-            </div>
-    
-            <div class="why reasons">
-                <img src="images/imgsupport.png" alt="">
-                <h4>24/7 Support</h4>
-                <p>Is there something you don't <br>understand? Feel free to call us. <br>Phone number in the footer</p>
-            </div>
-    
-            <div class="why reasons">
-                <img src="images/img (2).png" alt="">
-                <h4>We are nice</h4>
-                    <p>Fantasy is over, <br>there will be something <br>really convincing here</p>
-                </div>
-
-        </div>
-        
-    </section>
-
-    <!--End of Why us section-->
-
-
-    <section class="special">
-        <div class="wrapper">
-            <h2>Special offers</h2>
-            <div class="beds">
-                <div class="beds bed">
-                    <img src="images/Rectangle 9.png" alt="" class="bedpic">
-                    <img src="images/rating.svg" alt="" class="rating">
-                    <img src="images/favorite.svg" alt="" class="fav">
-                    <img src="images/head.png" alt="" class="headpic">
-                    <img src="images/price.png" alt="" class="price">
-                    <img src="images/details.png" alt="" class="details-btn">
-                    
-                    
-                </div>
-    
-                <div class="beds bed">
-                    <img src="images/Rectangle 9 (1).png" alt="" class="bedpic">
-                    <img src="images/rating.svg" alt="" class="rating">
-                    <img src="images/favorite.svg" alt="" class="fav">
-                    <img src="images/head.png" alt="" class="headpic">
-                    <img src="images/price.png" alt="" class="price">
-                    <img src="images/details.png" alt="" class="details-btn">
-                    
-                </div>
-    
-                <div class="beds bed">
-                    <img src="images/Rectangle 9 (2).png" alt="" class="bedpic">
-                    <img src="images/rating.svg" alt="" class="rating">
-                    <img src="images/favorite.svg" alt="" class="fav">  
-                    <img src="images/head.png" alt="" class="headpic">
-                    <img src="images/price.png" alt="" class="price">
-                    <img src="images/details.png" alt="" class="details-btn">
-                    
-                    
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!--End of Special offers section-->
-
-    <section class="reviews">
-
-        <div class="wrapper">
-            <h2>Reviews</h2>
-            <div class="reviews review">
-
-                <img src="images/arrow (1).svg" alt="" class="left-arrow">
-                <div class="review one">
-                    
-                    <img src="images/Ellipse 6.png" alt="">
-                    <p>I quickly found the right tour for me, <br>but I had a few questions about the <br>hotel, I wrote to tech support and they <br>answered all my questions within an <br>hour. The vacation itself was perfect. <br>Thank you very much. I will come back <br>again and again.</p>
-                    <p><strong><em>Jannike Borg,</em></strong> Publisher</p>
-                </div>
-                <div class="review one">
-                    <img src="images/Ellipse 6 (1).png" alt="">
-                    <p>I quickly found the right tour for me, <br>but I had a few questions about the <br>hotel, I wrote to tech support and they <br>answered all my questions within an <br>hour. The vacation itself was perfect. <br>Thank you very much. I will come back <br>again and again.</p>
-                    <p><strong><em>LeBron Durant,</em></strong> Flight attendant</p>
-                </div>
-                <div class="review one">
-                    <img src="images/Ellipse 6 (2).png" alt="">
-                    
-                    <p>I quickly found the right tour for me, <br>but I had a few questions about the <br>hotel, I wrote to tech support and they <br>answered all my questions within an <br>hour. The vacation itself was perfect. <br>Thank you very much. I will come back <br>again and again.</p>
-                    <p><strong><em>Kaarel Piho,</em></strong> chiropadist</p>
-                    
-                </div>
+    <main>
+        <section id="banner-section">
+            <div class="banner">
+                <img src="images/Rectangle 5.png" alt="" class="responsive-img">
                 
-                <img src="images/arrow.svg" alt="" class="right-arrow">
-                
-                
+                <div class="banner-text1">
+                    <h1>Find an apartment<br>for your vacation</h1>
+                </div>
+                <div class="banner-text2">
+                    <p>We have several thousand <br>apartments for every taste <br>in every corner of the globe</p>
+                </div>
+                <div class="banner-search">
+                    <img src="images/search.svg" alt="">
+                </div>
             </div>
-            <div class="button-container">
-                <button class="button">More reviews</button>
-            </div>
+        </section>
+
+
+
+        <section class="why-us">
             
-        </div>
-    </section>
+            <h2 class="why-us-text1">Why choose us</h2>
+            <p class="why-us-text2">The main reason is because our competitors
+                have disgusting sites, but we can't write
+                that here,so the text here will be different
+            </p>
+            <div id="whyContainer"></div>
+            
+        </section>
 
-    <!--End of Reviews section-->
+
+        <section class="special">
+            <h2>Special offers</h2>
+            <div id="specialContainer"></div>
+        </section>
+
+        <section class="review-section">
+            <h2 class="review-title">Reviews</h2>
+            <div id="reviewContainer"> </div>
+            <div class="review-button-container">
+                <button class="review-button">More reviews</button>
+            </div> 
+        </section>
 
 
-    <section class="posts">
-        <div class="wrapper">
-            <h2>Recent posts</h2>
-            <div class="places">
-                <div class="place">
-                    <img src="images/Rectangle 17.png" alt="">
-                    <div class="timedate">
-                        <p class="small">May 23, 2022</p>
-                        <img src="images/bx_time-five.svg" alt="" class="clk">
-                        <p class="blu">5 minutes</p>
-                    </div>
-                    <h4>My trip to Athens</h4>
-                    <p class="forp">It would seem that in a city where Theseus, <br>Plato and Epicurus once walked, the very idea <br>of the subway is alien to the city, but already...</p>
+        <section class="posts">
+            <h3 class="recent-post-text">Recent posts</h3>
+            <div class="postContainer" id="postContainer"></div>
+        </section>
+
+
+        <footer>
+            <div class="footer-class"> 
+                <div class="title-of-section-1">
+                    <h5 class="section-title">Title of section</h5>
+                    <p>Page title</p>
+                    <p>Page title</p>
+                    <p>Page title</p>
                 </div>
-    
-                <div class="place">
-                    <img src="images/Rectangle 17 (1).png" alt="">
-                    <div class="timedate">
-                        <p class="small">May 22, 2022</p>
-                        <img src="images/bx_time-five.svg" alt="" class="clk">
-                        <p class="blu">1 minutes</p>
-                    </div>
-                    <h4>Vilnius resorts</h4>
-                    <p class="forp">I haven't seen any resorts in Vilnius, but there <br>are wonderful people and pubs</p>
+                <div class="title-of-section-2">
+                    <h5>Title of section</h5>
+                    <p>Page title</p>
+                    <p>Page title</p>
+                    <p>Page title</p>
                 </div>
-    
-                <div class="place">
-                    <img src="images/Rectangle 17 (2).png" alt="">
-                    <div class="timedate">
-                        <p class="small">May 20, 2022</p>
-                        <img src="images/bx_time-five.svg" alt="" class="clk">
-                        <p class="blu">1 minutes</p>
+                <div class="title-of-section-3">
+                    <h5>Title of section</h5>
+                    <p>Page title</p>
+                    <p>Page title</p>
+                    <p>Page title</p>
+                </div>
+            
+                <div class="subscribe">
+                    <h4 class="subscribe-text">Subscribe to Newsletter</h4>
+                    <p>Your email</p>
+                    <div class="email">
+                        <img src="images/Rectangle,.png" alt="" class="placeholder-image"> <img src="images/btn (1).svg" alt="" class="btn-picture">
                     </div>
-                    <h4>Tips for flying on a plane</h4>
-                    <p class="forp">If you have a fear of flying, here's a helpful tip: <br>bring your co-pilot so you can take a nap <br>while he steers the plane for you</p>
+                    <hr>
+                    <div class="social-media">
+                        <h1 id="logo">Your<span>.logo</span></h1>
+                        <div class="social-media-icons">
+                            <a href="#"> <img src="images/Phone_black.svg" alt=""></a>
+                            <a href="#"> <img src="images/Facebook_black.svg" alt=""></a>
+                            <a href="#"> <img src="images/Youtube_black.svg" alt=""></a>
+                            <a href="#"> <img src="images/Instagram_black.svg" alt=""></a>
+                            <a href="#"> <img src="images/Telegram_black.svg" alt=""></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-    
-
-        </div>
-
-        
-    </section>
-        
-
-
-    <!--End of the posts-->
-
-
-    <footer>
-        <div class="wrapper">
-            <div class="links">
-                <div class="link">
-                    <h5>Title of section</h5>
-                    <ul>
-                        <li>Page title</li>
-                        <li>Page title</li>
-                        <li>Page title</li>
-                    </ul>
-                </div>
-    
-                <div class="link">
-                    <h5>Title of section</h5>
-                    <ul>
-                        <li>Page title</li>
-                        <li>Page title</li>
-                        <li>Page title</li>
-                    </ul>
-                </div>
-    
-                <div class="link">
-                    <h5>Title of section</h5>
-                    <ul>
-                        <li>Page title</li>
-                        <li>Page title</li>
-                        <li>Page title</li>
-                    </ul>
-                </div>
-    
-                <div class="link">
-                    <h5>Subscribe to Newsletter</h5>
-                    <form action="#">
-                        <label for="">Your email</label><br>
-                        <input type="email" name="" id="input">
-                        <button class="submit-btn"><a href="#"><img src="images/btn.svg" alt=""></a></button>
-                    </form>
-                </div>
-            </div>
-            <hr>
-            <div class="ft">
-                <span class="ylogo"><span class="your">Your</span>.logo</span>
-                <p>Design by <span class="delvig">Delvig</span></p>
-                <ul>
-                    <a href="#"><img src="images/Phone_black.svg" alt=""></a>
-                    <a href="#"><img src="images/Facebook_black.svg" alt=""></a>
-                    <a href="#"><img src="images/Youtube_black.svg" alt=""></a>
-                    <a href="#"><img src="images/Instagram_black.svg" alt=""></a>
-                    <a href="#"><img src="images/Telegram_black.svg" alt=""></a>
-                </ul>
-            </div>
-        </div>
-        <p class="footer-lastp">Icon: flaticon.com <br> Images: unsplash.com</p>
-    </footer>
-
-
-    <!--End of the footer section-->
-
+           
+            Design by <span class="delvig">Delvig</span>
+        </footer>
+    </main>
     <script src="main.js"></script>
-    
+
 </body>
 </html>

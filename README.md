@@ -1,73 +1,68 @@
-# Hotel-website
+# Hotel Website - Mobile View
+
+## 📌 Project Overview
+This project is a **mobile-responsive** version of a hotel website, built from a Figma design. It provides users with experience when browsing for vacation apartments and accommodations on mobile devices.
+
+## 🎯 Features
+- **Responsive Design:** Optimized for mobile screens.
+- **Navigation Menu:** A hamburger menu that opens a full-screen navigation page with an exit button.
+- **Banner Section:** A visually appealing banner with a search icon.
+- **Special Offers Section:** Displays featured apartments with ratings and favorite icons.
+- **Footer Section:** Includes essential links and contact information.
+- **Reviews Section:** Provides feedback from customers.
+- **Recent Posts Section:** Provide appealing pictures of available destinations.
+
+## 🛠️ Technologies Used
+- **HTML5** - For structuring the content.
+- **CSS3 (Flexbox & Grid)** - For styling and layout.
+- **JavaScript (ES6)** - For interactivity and dynamic content rendering.
+
+## 📂 Folder Structure
+```
+project-folder/
+│-- images/            # Contains all images and icons
+│-- css/               # Contains all stylesheets
+│   ├── styles.css     # Main stylesheet
+│-- js/                # Contains JavaScript files
+│   ├── script.js      # Main JavaScript file
+│-- index.html         # Main HTML file
+│-- README.md          # Project documentation
+```
+
+## 🚀 Getting Started
+### 1. Clone the Repository
+```sh
+git clone https://github.com/Sufag1/hotel-website-mobile.git
+```
+### 2. Open in Browser
+Simply open `index.html` in your browser to view the project.
+
+### 3. Run a Local Server *(Optional)*
+If you want to run the project using a local development server, you can use VS Code's Live Server extension or run:
+```sh
+npx live-server
+```
+
+## 🎨 UI/UX Design
+The design follows the provided Figma file, ensuring a smooth user experience with:
+- Well-structured **typography**
+- **Consistent spacing and padding**
+- **Optimized images** for faster loading
 
 
+📹 Demo Links
 
-# Project Name
+Loom Video: [Insert Loom Link Here]
 
-Find a Hotel Website
+Live Render Link: [Insert Render Link Here]
 
-# Project Overview  
+## 📝 License
+This project is open-source under the [MIT License](LICENSE).
 
-This project is a responsive website featuring a modern UI for a real estate or hospitality platform. It includes a structured layout with sections for property listings, reviews, and blog posts. The design adapts to different screen sizes, ensuring a seamless experience on both desktop and mobile devices.  
+---
 
-The website features a navigation menu, a banner with a search function, and dynamically displayed content. The JavaScript functionality enhances user experience by enabling a mobile-friendly menu toggle. The project is built using HTML, CSS, and JavaScript, following best practices for responsiveness and accessibility.
+💻 **Developed by:** [Farouq Abubakar]  
+📧 Contact: farouqabubakar99@gmail.com  
+🔗 Portfolio: [Sufag1.com](https://Sufag1.com)
 
-
-
-## Technologies Used
-
-
-- HTML
-
-- CSS
-
-- Javascript
-
--Javascript functionalities such as DOM, Query selector and Arrow functions
-
-
-## Author
-
-
-- **Name:** Farouq Abubakar
-
-- **Email:** farouqabubakar99@gmail.com
-
-- **GitHub:** [Sufag1](https://github.com/Sufag1)
-
-- **Render:** https://hotel-website-qu3f.onrender.com
-
-- **Loom:** https://www.loom.com/share/91a9dcf893a94eeca095884a34c2216c
-
-
-
-## License
-
-This project is licensed under the MIT License.
-
-
-
-## Features
-
-### **Main Features of the Project**  
-
-1. **Responsive Design** – The website adapts to different screen sizes, ensuring an optimal user experience on both desktop and mobile devices.  
-
-2. **Navigation Menu** – A main navigation bar for desktop users and a mobile-friendly menu with a toggle feature for smaller screens.  
-
-3. **Hero Banner with Search** – A visually appealing banner section with a search function to help users find relevant content quickly.  
-
-4. **Property Listings** – A section displaying available properties with images, ratings, and favorite options.  
-
-5. **User Reviews** – A dedicated reviews section showcasing user feedback to enhance credibility.  
-
-6. **Blog Section** – A posts section for sharing insights, updates, or news related to the platform.  
-
-7. **Call-to-Action Button** – Encourages user engagement with a prominent button for key actions.  
-
-8. **Footer with Quick Links** – Includes important links and a newsletter subscription form for user engagement.  
-
-9. **Smooth Animations & Effects** – Subtle transitions and effects enhance user experience.  
-
-10. **JavaScript-Enabled Mobile Menu** – A toggleable mobile menu improves navigation on smaller screens.  
 
