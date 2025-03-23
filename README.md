@@ -54,7 +54,7 @@ The design follows the provided Figma file, ensuring a smooth user experience wi
 
 Loom Video: https://www.loom.com/share/67b3fd5bc1694646b623ed29deb54f5e?sid=2ef99ad5-d625-47ac-af38-27d72f7717d3
 
-Live Render Link: [Insert Render Link Here]
+Live Render Link: 
 
 ## 📝 License
 This project is open-source under the [MIT License](LICENSE).
