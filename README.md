@@ -54,15 +54,15 @@ The design follows the provided Figma file, ensuring a smooth user experience wi
 
 Loom Video: https://www.loom.com/share/67b3fd5bc1694646b623ed29deb54f5e?sid=2ef99ad5-d625-47ac-af38-27d72f7717d3
 
-Live Render Link: 
+Live Render Link: https://hotel-website-qu3f.onrender.com
 
 ## 📝 License
 This project is open-source under the [MIT License](LICENSE).
 
 ---
 
-💻 **Developed by:** [Farouq Abubakar]  
+💻 **Developed by:** Farouq Abubakar 
 📧 Contact: farouqabubakar99@gmail.com  
-🔗 Portfolio: [Sufag1.com](https://Sufag1.com)
+🔗 Portfolio: https://Sufag1.com
 
 
