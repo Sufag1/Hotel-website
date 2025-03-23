@@ -1,14 +1,14 @@
-// Selecting Elements
+/* Selecting Elements*/
 const menuBtn = document.getElementById('menuBtn');
 const navMenu = document.getElementById('navMenu');
 const closeBtn = document.getElementById('closeBtn');
 
-// Show Menu when Clicking Hamburger
+/* Show Menu when Clicking Hamburger*/
 menuBtn.addEventListener('click', () => {
     navMenu.classList.add('active');
 });
 
-// Hide Menu when Clicking Close Button
+/* Hide Menu when Clicking Close Button*/
 closeBtn.addEventListener('click', () => {
     navMenu.classList.remove('active');
 });
