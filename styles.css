@@ -32,6 +32,7 @@ header{
     margin: 16px 16px;
     background-color: none;
     color: blue;
+    width: 100vw;
 }
 
 /* Hamburger Menu */
@@ -168,7 +169,7 @@ header{
 
 /* Responsive Image */
 .responsive-img {
-    width: 100%; 
+    width: 100vw; 
     height: 50vh; 
     object-fit: cover; 
     display: block;
@@ -204,15 +205,16 @@ header{
     font-weight: 600;
     text-align: left;
     color: var(--black-color);
-    left: 30px;
+    left: 40px;
 }
 
 .banner-text2 {
-    top: 35%;
+    top: 40%;
     font-size: 1rem;
     width: 80%;
     text-align: left;
     color: var(--p-color);
+    left: 40px;
 }
 
 .banner-text2 p {
@@ -546,3 +548,34 @@ footer {
     background-color: rgb(144, 219, 219);
 }
 
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .banner-text1 {
+        font-size: 1.3rem;
+        left: 40px;
+    }
+    .banner-text2 {
+        font-size: 1.3rem;
+        left: 40px;
+    }
+   
+    footer {
+        margin-top: 0px;
+    }
+    .posts {
+        margin-bottom: 0px;
+    }
+}
