@@ -130,7 +130,7 @@ const renderReview = reviewContainer => {
                     <img src="${reviewContainer.Image}" alt="" id="review-pic">
                     <p class="review-msg">${reviewContainer.description1}</p>
                     <p class="review-author"> ${reviewContainer.description2}</p>
-                </div>
+        </div>
         `;
     });
 }
