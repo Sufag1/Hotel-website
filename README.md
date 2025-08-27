@@ -46,8 +46,6 @@ npx live-server
 
 📹 Demo Links
 
-Loom Video: https://www.loom.com/share/67b3fd5bc1694646b623ed29deb54f5e?sid=2ef99ad5-d625-47ac-af38-27d72f7717d3F
-
 Live Render Link: https://hotel-website-qu3f.onrender.com
 
 ## 📝 License
